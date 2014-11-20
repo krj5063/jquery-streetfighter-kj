@@ -27,6 +27,7 @@ body {
 
 .ryu-ready, .ryu-throwing {
     display: none;
+    background-repeat: no-repeat;
 }
 
 .ryu-ready {
