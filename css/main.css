@@ -2,6 +2,16 @@ body {
     background-color: black;
 }
 
+.maintext {
+    font-size: 2em;
+    color: black;  
+    max-width: 500px;
+    float: right; 
+    left: -250px; 
+    position: relative; 
+    margin-top: 0em; 
+    font-family: 'Shadows Into Light', 'Kaushan Script' cursive;
+}
 /*
 * { outline: red 1px solid;}
 */
@@ -25,7 +35,12 @@ body {
     background-repeat: no-repeat;
 }
 
-.ryu-ready, .ryu-throwing, {
+.ryu-ready
+    display: none;
+    background-repeat: no-repeat;
+}
+
+.ryu-throwing { 
     display: none;
     background-repeat: no-repeat;
 }
